@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ff5200;
+    width: 100%;
+}
+
+#container {
+    width: 1000px;
+    background-color: #f7f7f7;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+/*********** Section 1 ************/
+#section1 {
+    text-align: center;
+}
+
+.content1 {
+    background: linear-gradient(to right, #ff5200, gray);
+    margin-bottom: 5px;
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#section1 p {
+    text-align: left;
+}
+
+#section1 h2 {
+    text-decoration: underline;
+}
+
+#section1 .content1:nth-child(even) {
+    background: gray;
+}
+
+#section1 .content1:nth-child(even) p {
+    color: #ff5200;
+}
+
+#section1 .content1:nth-child(even) h2 {
+    color: #ff5200;
+}
+/************** Section 2*************/
+
+#section2 {
+    text-align: center;
+}
+
+.content2 {
+    width: 200px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#section2 .content2:nth-child(odd) {
+    background: gray;
+    border-radius: 10px;
+}
+
+#section2 .content2:nth-child(odd) h2 {
+    color: #ff5200;
+    text-decoration: underline;
+}
+
+#section2 .content2:nth-child(odd) p {
+    text-align: left;
+    color: #ff5200;
+}
+
+#section2 .content2:nth-child(even) {
+    background: #ff5200;
+    border-radius: 10px;
+}
+
+#section2 .content2:nth-child(even) h2 {
+    text-decoration: underline;
+    color: gray;
+}
+
+#section2 .content2:nth-child(even) p {
+    text-align: left;
+    color: gray;
+}
+
+/*********** Section 3 ***********/
+
+#section3 {
+    text-align: center;
+}
+
+.content3 {
+    width: 300px;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #ff5200;
+    border-radius: 10px;
+    color: white;
+}
+
+.content3 h2 {
+    text-decoration: underline;
+}
+
+.content3 p {
+    text-align: left; 
+}
+
+#section3 .content3:nth-child(even) {
+    background: linear-gradient(to left,#ff5200, gray);
+}
+
+#section3 .content3:nth-child(odd) h2 {
+    color: gray;
+}
+
+#section3 .content3:nth-child(odd) p {
+    color: gray;
+}
